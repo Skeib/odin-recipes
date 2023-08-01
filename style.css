@@ -1,0 +1,33 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+  background-color: rgb(78, 78, 232);
+  color: rgb(95, 169, 233);
+}
+h2{
+  background-color: rgb(186, 125, 243);
+}
+h1, h2{
+  padding: 4px;
+  display: table;
+}
+.ingredients,
+#recipe-list{
+  list-style-position: inside;
+  display: table;
+  padding-left: 3px;
+  border-style: dashed;
+  border-radius: 5px;
+  border-color: rgb(127, 127, 255);
+  padding: 10px;
+}
+.steps{
+  list-style-position: inside;
+  display: table;
+  padding-left: 3px;
+  border-style: dashed;
+  border-radius: 5px;
+  border-color: rgb(248, 186, 131);
+  padding: 10px;
+}
